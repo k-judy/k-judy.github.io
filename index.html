@@ -1,29 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>To Judy</title>
-<style type="text/css">
-#layout {
-	background-color: #FF0;
-	height: auto;
-	width: 960px;
-	margin: auto;
-}
-p{
-	font-size:16px;
-	text-indent:2em;
-	padding:10px;
-	margin:10px;
-	line-height:30px; 
-}
-</style>
+<head lang="zh-CN">
+  <meta charset="utf-8">
+  <title>position</title>
+  <style>
+    body.body001 {
+	  margin: 0;
+	  background-color: yellow;
+	}	  
+	div.div001 {
+	  background-color: blue;
+	  width: 100%;
+	  height: 100%;
+	}	  
+    img.img001 {
+	  position: fixed;
+      width:100%;
+      height:100%;	  
+      top:0;
+      left:0;
+      z-index:-1;	  
+	}
+	img.img002 {
+	  position:relative;	  
+	  top:200px;
+	  left:700px;
+	}
+	h1.h1001 {
+	position:absolute;
+	top:400px;
+	left:400px;
+	}
+	
+  </style>
 </head>
 
-<body bgcolor="#000000">
-<div id="layout">
-<h1>抽时间帮你做书签</h1>
-
-</div>
-</body>
-</html>
+  <body class="">
+    <div class="">
+      <img class="img001" src="pictures/001.jpg">
+	  <img class="img002" src="pictures/eg_cute.gif">	  
+  
+    </div>  
+  </body>
+<html>
